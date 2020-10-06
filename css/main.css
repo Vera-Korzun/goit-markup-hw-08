@@ -1,0 +1,131 @@
+/*
+основной черный          #212121
+акцент   синий           #2196F3
+основной серый           #757575
+белый                    #FFFFFF
+email & tel footer       rgba(255, 255, 255, 0.6)
+основной background      #FFFFFF
+вторичный т background   #2F303A
+вторичный св background  #F5F4FA
+*/
+
+.list {
+  list-style: none;
+}
+
+/*Offers*/
+
+.section-title-main {
+  color: var(--primary-white-color);
+  background-color: var(--background-footer);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*Qualities*/
+
+.qualities-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.title-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/*Our team*/
+
+.team .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /*text-align: center;*/
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  /*text-align: center;*/
+}
+
+/*Button*/
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:active {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.primary-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  text-decoration: none;
+}
+
+.primary-button:hover,
+.primary-button:active {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
+/*Projects*/
+
+.projects .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects .type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
