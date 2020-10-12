@@ -11,6 +11,8 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*Offers*/
@@ -18,6 +20,9 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 .section-title-main {
   color: var(--primary-white-color);
   background-color: var(--background-footer);
+
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: 900;
   font-size: 44px;
@@ -97,11 +102,13 @@ email & tel footer       rgba(255, 255, 255, 0.6)
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
+  padding: 10px 32px;
+  min-width: 200px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   text-decoration: none;
@@ -113,6 +120,10 @@ email & tel footer       rgba(255, 255, 255, 0.6)
   background-color: var(--primary-white-color);
 }
 
+.secondary-button {
+  display: inline-block;
+  padding: 6px 22px;
+}
 /*Projects*/
 
 .projects .title {
