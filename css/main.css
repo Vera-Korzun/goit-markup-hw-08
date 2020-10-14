@@ -18,28 +18,32 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 /*Offers*/
 
 .section-main {
-	text-align: center;
 	background-color: var(--background-footer);
+	text-align: center;
 
-	margin-bottom: 101px;
-
-	outline: 1px solid #2196f3;
+	width: 1600px;
+	height: 600px;
+	margin: 0 auto;
+	margin-bottom: 94px;
 }
 
 .section-title-main {
 	color: var(--primary-white-color);
-	background-color: var(--background-footer);
-
-	margin-top: 0;
-	margin-bottom: 30px;
 
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-}
 
+	width: 696px;
+
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-top: 200px;
+	margin-left: 452px;
+	margin-right: 452px;
+}
 /*Qualities*/
 
 .qualities-list .title {
@@ -66,7 +70,8 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 }
 
 .qualities-list-item {
-	max-width: 270px;
+	/*max-width: 270px;*/
+	width: 270px;
 }
 
 .title {
@@ -94,9 +99,9 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	margin-bottom: 50px;
 }
 
-.section-title.no-padding {
+/*.section-title.no-padding {
 	padding-top: 0;
-}
+}*/
 /*Work with*/
 
 .work {
@@ -184,6 +189,8 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	letter-spacing: 0.06em;
 
 	text-decoration: none;
+
+	margin-bottom: 200px;
 }
 
 .primary-button:hover,
