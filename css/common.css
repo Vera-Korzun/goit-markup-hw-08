@@ -141,9 +141,10 @@ img {
 
 .footer {
 	background-color: var(--background-footer);
-	width: 1600px;
 	height: 252px;
 	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .page-footer {
@@ -153,9 +154,9 @@ img {
 	margin-bottom: 60px;
 }
 
-.logo-footer {
+/*.logo-footer {
 	margin-top: 60px;
-}
+}*/
 
 .logo-second-part {
 	color: var(--primary-white-color);
