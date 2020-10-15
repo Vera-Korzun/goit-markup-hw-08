@@ -137,6 +137,13 @@ img {
 }
 
 /*Footer*/
+.page-footer {
+	display: flex;
+	flex-direction: row;
+}
+.page-footer-logo {
+	margin-right: 70px;
+}
 
 .footer {
 	background-color: var(--background-footer);
@@ -155,6 +162,10 @@ img {
 
 	margin-top: 0;
 	margin-bottom: 20px;
+}
+
+.address-footer {
+	margin-top: 20px;
 }
 
 .address {
@@ -184,4 +195,20 @@ img {
 	line-height: 1.7;
 
 	text-decoration: none;
+}
+
+.footer-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+
+	color: var(--primary-white-color);
+}
+
+.footer-list-cont {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
 }
