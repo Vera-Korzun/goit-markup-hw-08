@@ -71,8 +71,8 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 }
 
 .qualities-list-item {
-	/*max-width: 270px;*/
-	width: 270px;
+	max-width: 270px;
+	/*width: 270px;*/
 }
 
 .title-info {
@@ -124,6 +124,12 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	display: flex;
 }
 
+/*our team */
+
+.team-item {
+	background-color: var(--primary-white-color);
+}
+
 .team-item:not(:last-child) {
 	margin-right: 30px;
 }
@@ -144,6 +150,10 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 .section.padding {
 	padding-top: 94px;
 	padding-bottom: 94px;
+	background-color: var(--secondary-bg-color);
+	width: 1600px;
+	height: 600px;
+	margin: auto;
 }
 
 /*============Button============*/
