@@ -36,7 +36,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 
-	width: 696px;
+	max-width: 696px;
 
 	margin-top: 0;
 	margin-bottom: 30px;

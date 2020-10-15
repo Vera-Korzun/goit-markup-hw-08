@@ -25,6 +25,11 @@ img {
 	display: block;
 }
 
+.header {
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+
 .page-header {
 	display: flex;
 }
@@ -53,9 +58,6 @@ img {
 	font-size: 26px;
 	line-height: 1.2;
 
-	margin-top: 24px;
-	margin-bottom: 25px;
-
 	text-decoration: none;
 }
 
@@ -63,7 +65,7 @@ img {
   color: var(--accent-color);
 }*/
 .logo-header {
-	padding-right: 93px;
+	margin-right: 93px;
 }
 
 .logo-part {
