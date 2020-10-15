@@ -203,6 +203,12 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 }
 
 /*============Main menu============*/
+
+.section-projects {
+	padding-bottom: 94px;
+	padding-top: 94px;
+}
+
 .menu {
 	display: flex;
 	flex-direction: row;
@@ -215,14 +221,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	margin-right: 9px;
 }
 
-.meny-list {
-	padding-top: 94px;
-}
 /*============Projects============*/
-
-.section-projects {
-	padding-bottom: 94px;
-}
 
 .projects-item .title {
 	color: var(--title-text-color);
