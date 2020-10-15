@@ -22,7 +22,6 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	text-align: center;
 
 	max-width: 1600px;
-	/*height: 600px;*/
 	padding-top: 120px;
 	padding-bottom: 220px;
 	margin: 0 auto;
@@ -187,8 +186,6 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	letter-spacing: 0.06em;
 
 	text-decoration: none;
-
-	/*margin-bottom: 200px;*/
 }
 
 .primary-button:hover,
@@ -251,7 +248,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 .projects-item {
 	width: calc((100% - 60px) / 3);
-	border: 1px solid #eeeeee;
+	display: flex;
 	margin-bottom: 30px;
 }
 .projects-item:not(:nth-child(3n)) {
@@ -261,15 +258,13 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 .projects-item:nth-last-child(-n + 3) {
 	margin-bottom: 0;
 }
-/*.projects-item img {
-	margin-bottom: 20px;
-}*/
 
 .projects-item-link {
-	color: var(---primary-text-color);
+	color: var(--primary-text-color);
 	text-decoration: none;
 }
 
-/*.projects-description {
-	border: 1px solid #eeeeee;
-}*/
+.projects-description {
+	border: 1px solid var(--border-color);
+}
+}
