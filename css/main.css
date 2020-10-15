@@ -22,10 +22,9 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	text-align: center;
 
 	max-width: 1600px;
-	padding-top: 120px;
-	padding-bottom: 220px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	margin: 0 auto;
-	margin-bottom: 94px;
 }
 
 .section-title-main {
@@ -48,6 +47,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 /*============Qualities============*/
 .section-qualities {
+	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
@@ -102,11 +102,14 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 .work {
 	display: flex;
-	padding-bottom: 94px;
 }
 
 .work-item:not(:nth-child(3n)) {
 	margin-right: 30px;
+}
+
+.work-section {
+	padding-bottom: 94px;
 }
 
 /*============Our team============*/
@@ -212,7 +215,14 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	margin-right: 9px;
 }
 
+.meny-list {
+	padding-top: 94px;
+}
 /*============Projects============*/
+
+.section-projects {
+	padding-bottom: 94px;
+}
 
 .projects-item .title {
 	color: var(--title-text-color);
@@ -266,5 +276,4 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 .projects-description {
 	border: 1px solid var(--border-color);
-}
 }

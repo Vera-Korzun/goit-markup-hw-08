@@ -27,7 +27,6 @@ img {
 }
 
 .header {
-	margin-bottom: 20px;
 	padding-top: 24px;
 	padding-bottom: 25px;
 	border-bottom: 1px solid var(--border-color);
@@ -64,9 +63,6 @@ img {
 	text-decoration: none;
 }
 
-/*.logo:hover {
-  color: var(--accent-color);
-}*/
 .logo-header {
 	margin-right: 93px;
 }
@@ -149,17 +145,6 @@ img {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
-
-.page-footer {
-	display: flex;
-	flex-direction: column;
-
-	margin-bottom: 60px;
-}
-
-/*.logo-footer {
-	margin-top: 60px;
-}*/
 
 .logo-second-part {
 	color: var(--primary-white-color);
