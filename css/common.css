@@ -111,14 +111,38 @@ img {
 .cont {
 	display: flex;
 }
+
 /*.cont-item {
 	display: block;
 	justify-content: center;
 	align-items: center;
 }*/
+
 .cont-item:not(:last-child) {
 	margin-right: 50px;
 }
+
+.cont-item::before {
+	content: "";
+	display: inline-block;
+	background-size: contain;
+	background-position: center;
+	margin-right: 10px;
+}
+
+.cont-mail::before {
+	width: 16px;
+	height: 12px;
+	background-image: url(../img/svg/envelope.svg);
+	vertical-align: middle;
+}
+.cont-tel::before {
+	width: 10px;
+	height: 16px;
+	background-image: url(../img/svg/smartphone.svg);
+	vertical-align: middle;
+}
+
 .cont-info {
 	color: var(--primary-text-color);
 
