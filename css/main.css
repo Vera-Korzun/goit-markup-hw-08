@@ -137,9 +137,36 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	margin-right: 30px;
 }
 
+.work-item {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.work-item-position {
+	display: flex;
+}
+
 .work-section {
 	padding-bottom: 94px;
-	/*padding-top: 94px;*/
+}
+
+.work-position {
+	background: rgba(47, 48, 58, 0.8);
+	width: 370px;
+	position: absolute;
+	display: flex;
+}
+
+.work-information {
+	color: var(--primary-white-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	margin: 27px auto;
+
+	text-transform: uppercase;
 }
 
 /*============Our team============*/
