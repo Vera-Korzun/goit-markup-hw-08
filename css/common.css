@@ -92,7 +92,7 @@ img {
 
 	text-decoration: none;
 
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
 
 	position: relative;
 }
@@ -113,7 +113,7 @@ img {
 	margin-top: 30px;
 	opacity: 0;
 
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
 }
 
 .nav-link:hover,
@@ -121,7 +121,8 @@ img {
 	color: var(--accent-color);
 }
 
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link:focus::after {
 	opacity: 1;
 }
 
@@ -149,7 +150,7 @@ img {
 	margin-right: 10px;
 	fill: var(--primary-text-color);
 
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
 }
 
 .cont-info {
@@ -166,7 +167,7 @@ img {
 	letter-spacing: 0.02em;
 
 	text-decoration: none;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
 }
 
 .cont-info:not(:last-child) {
@@ -176,10 +177,11 @@ img {
 .cont-info:hover,
 .cont-info:focus {
 	color: var(--accent-color);
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
 }
 
-.cont-info:hover .cont-list-svg {
+.cont-info:hover .cont-list-svg,
+.cont-info:focus .cont-list-svg {
 	fill: var(--accent-color);
 }
 /*============Footer============*/
@@ -271,10 +273,11 @@ img {
 	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
 }
 
-.footer-list-link:hover {
+.footer-list-link:hover,
+.footer-list-link:focus {
 	background-color: var(--accent-color);
 }
 
