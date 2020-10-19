@@ -59,6 +59,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 .backdrop.is-hidden {
 	opacity: 0;
+	visibility: hidden;
 	pointer-events: none;
 }
 
@@ -253,7 +254,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	background-color: var(--primary-white-color);
 	border-radius: 50%;
 
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -266,7 +267,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	height: 20px;
 	fill: #afb1b8;
 
-	transition-duration: 250ms;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover .social-list-svg,
@@ -304,7 +305,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	border-radius: 4px;
 	box-sizing: border-box;
 
-	transition-duration: 250ms;
+	transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-team-item:hover/*,
@@ -319,7 +320,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 .clients-list-svg {
 	fill: #afb1b8;
 
-	transition-duration: 250ms;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-team-item:hover .clients-list-svg/*,
@@ -342,7 +343,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	border: none;
 	border-radius: 4px;
 
-	transition-duration: 250ms;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -366,7 +367,7 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 
 	text-decoration: none;
 
-	transition-duration: 250ms;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .primary-button:hover,
