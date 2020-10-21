@@ -221,15 +221,12 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 .checkbox-icon {
 	display: inline-block;
 	width: 16px;
-	height: 15px;
+	height: 16px;
 	border: 2px solid var(--title-text-color);
 	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.checkbox-icon:hover {
-	border: 2px solid var(--accent-color);
 }
 
 .form-checkbox-text {
@@ -240,17 +237,21 @@ email & tel footer       rgba(255, 255, 255, 0.6)
 	color: var(--accent-color);
 }
 
+.modal-form-checkbox:focus + .checkbox-icon {
+	outline: var(--title-text-color);
+}
+
+.modal-form-checkbox:hover + .checkbox-icon {
+	border: 2px solid var(--accent-color);
+}
+
 .modal-form-checkbox:checked + .checkbox-icon {
 	background-image: url("../img/svg/check.svg");
 	background-size: contain;
-	border: var(--accent-color);
+	border: 4px solid var(--accent-color);
 	background-origin: border-box;
-	/*background-size: 16px 15px;
-	border: 0px;*/
-}
-
-.modal-form-checkbox:focus + .checkbox-icon {
-	border: 2px solid var(--accent-color);
+	background-size: 16px 15px;
+	border: 0px;
 }
 
 .modal-checkbox {
