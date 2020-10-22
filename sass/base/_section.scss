@@ -1,5 +1,7 @@
 .section {
-	&__qualities {
+	&__qualities,
+	&__clients,
+	&__projects {
 		padding-top: 94px;
 		padding-bottom: 94px;
 	}
@@ -15,11 +17,6 @@
 		padding-bottom: 94px;
 
 		/*margin: auto;*/
-	}
-
-	&__clients {
-		padding-top: 94px;
-		padding-bottom: 94px;
 	}
 
 	&__footer {
