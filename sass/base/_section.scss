@@ -1,0 +1,33 @@
+.section {
+	&__qualities {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
+
+	&__work {
+		padding-bottom: 94px;
+	}
+
+	&__team {
+		background-color: $secondary-bg-color;
+		/*max-width: 1600px;*/
+		padding-top: 94px;
+		padding-bottom: 94px;
+
+		/*margin: auto;*/
+	}
+
+	&__clients {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
+
+	&__footer {
+		background-color: $background-footer;
+		/*max-width: 1600px;*/
+		/*height: 252px;*/
+		/*margin: 0 auto;*/
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
