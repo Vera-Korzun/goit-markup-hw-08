@@ -3,24 +3,4 @@
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
-
-	.header & {
-		padding-top: 24px;
-		padding-bottom: 25px;
-		border-bottom: 1px solid $border-color;
-	}
-
-	.hero & {
-		text-align: center;
-
-		max-width: 1600px;
-		padding-top: 200px;
-		padding-bottom: 200px;
-		margin: 0 auto;
-
-		background-color: #c4c4c4;
-		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bg.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 }

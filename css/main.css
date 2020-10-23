@@ -43,24 +43,6 @@ img {
   padding-right: 15px;
 }
 
-.header .container {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #eeeeee;
-}
-
-.hero .container {
-  text-align: center;
-  max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0 auto;
-  background-color: #c4c4c4;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .section__qualities, .section__clients, .section__projects {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -206,6 +188,18 @@ img {
 
 .address__list-info:focus .address__list-svg {
   fill: #2196f3;
+}
+
+.hero {
+  text-align: center;
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__button {
@@ -915,6 +909,11 @@ img {
 
 .projects__menu-button {
   display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: #212121;
   padding: 6px 22px;
   cursor: pointer;
   border: none;
@@ -1015,5 +1014,11 @@ img {
   font-size: 18px;
   line-height: 1.56;
   margin: 63px 24px;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eeeeee;
 }
 /*# sourceMappingURL=main.css.map */
