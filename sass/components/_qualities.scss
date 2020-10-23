@@ -3,6 +3,18 @@
 	flex-direction: row;
 	justify-content: space-around;
 
+	@media screen and (min-width: 480px) {
+		width: 480px;
+		display: block;
+	}
+	@media screen and (min-width: 768px) {
+		width: 768px;
+		display: flex;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 1200px;
+	}
+
 	&-item {
 		max-width: calc(100%-30px * 3) / 4;
 		/*max-width:270px;*/

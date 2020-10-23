@@ -1,0 +1,62 @@
+.section__qualities {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.qualities__list-item {
+	width: 450px;
+}
+
+.qualities__list-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	text-align: center;
+
+	color: var(--title-text-color);
+
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.qualities__list-description {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+
+	color: var(--primary-text-color);
+
+	margin-top: 0;
+}
+
+.qualities__list-item:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.qualities__list-item::before {
+	display: block;
+	content: "";
+	height: 120px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: var(--secondary-bg-color);
+	margin-bottom: 30px;
+}
+
+.qualities__list-icon-antenna::before {
+	background-image: url(../img/svg/antenna.svg);
+}
+
+.qualities__list-icon-clock::before {
+	background-image: url(../img/svg/clock.svg);
+}
+
+.qualities__list-icon-diagram::before {
+	background-image: url(../img/svg/diagram.svg);
+}
+
+.qualities__list-icon-astronaut::before {
+	background-image: url(../img/svg/astronaut.svg);
+}

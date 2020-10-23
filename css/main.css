@@ -36,11 +36,35 @@ img {
   opacity: 0;
 }
 
+/*.container {
+	margin: 0 auto;
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}*/
 .container {
-  margin: 0 auto;
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .section__qualities, .section__clients, .section__projects {
@@ -192,7 +216,7 @@ img {
 
 .hero {
   text-align: center;
-  max-width: 1600px;
+  width: 100%;
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
@@ -240,6 +264,26 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+@media screen and (min-width: 480px) {
+  .qualities__list {
+    width: 480px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .qualities__list {
+    width: 768px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .qualities__list {
+    width: 1200px;
+  }
 }
 
 .qualities__list-item {
