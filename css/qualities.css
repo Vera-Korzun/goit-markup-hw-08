@@ -4,31 +4,8 @@
 }
 
 .qualities__list-item {
-	width: 450px;
-}
-
-.qualities__list-title {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
-	text-transform: uppercase;
-	text-align: center;
-
-	color: var(--title-text-color);
-
-	margin-top: 30px;
-	margin-bottom: 10px;
-}
-
-.qualities__list-description {
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.7;
-	letter-spacing: 0.03em;
-
-	color: var(--primary-text-color);
-
-	margin-top: 0;
+	/*width: 450px;*/
+	margin: 0 auto;
 }
 
 .qualities__list-item:not(:last-child) {
@@ -59,4 +36,83 @@
 
 .qualities__list-icon-astronaut::before {
 	background-image: url(../img/svg/astronaut.svg);
+}
+
+.qualities__list-title {
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	text-align: center;
+
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.qualities__list-description {
+	color: var(--primary-text-color);
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+
+	margin: 0;
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+	.qualities__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.qualities__list-item {
+		max-width: 354px;
+	}
+
+	.qualities__list-item:nth-last-child(even) {
+		margin-right: 30px;
+	}
+
+	.qualities__list-item:not(:last-child) {
+		margin-bottom: 0;
+	}
+
+	.qualities__list-item:not(:nth-last-child(-n + 2)) {
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section__qualities {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
+
+	.qualities__list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.qualities__list-item {
+		/*max-width: calc(100%-30px * 3) / 4;*/
+		max-width: 270px;
+	}
+
+	.qualities__list-item:nth-last-child(even) {
+		margin-right: 0;
+	}
+
+	.qualities__list-item:not(:last-child) {
+		margin-right: 30px;
+	}
+
+	.qualities__list-title {
+		margin-top: 0;
+	}
 }
