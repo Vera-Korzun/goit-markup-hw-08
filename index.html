@@ -40,48 +40,44 @@
 						<span>Studio</span>
 					</a>
 
-					<ul class="navigation__list list">
-						<li class="navigation__list-item"><a href="./index.html"
-								class="link navigation__list-link current">Студия</a></li>
-						<li class="navigation__list-item">
-							<a href="./portfolio.html" class="link navigation__list-link">Портфолио</a>
-						</li>
-						<li class="navigation__list-item"><a href="" class="link navigation__list-link">Контакты</a></li>
-					</ul>
-					<address class="address">
-						<ul class="address__list list">
-							<li class="address__list-item">
-								<a href="mailto:info@devstudio.com" class="link address__list-info">
-									<svg width="16" height="12" class="address__list-svg">
-										<use href="./img/sprite.svg#envelope"></use>
-									</svg> info@devstudio.com</a>
-							</li>
-							<li class="address__list-item">
-								<a href="tel:+380961111111" class="link address__list-info">
-									<svg width="10" height="16" class="address__list-svg">
-										<use href="./img/sprite.svg#smartphone"></use>
-									</svg>+38 096 111 11 11</a>
-							</li>
-						</ul>
-					</address>
-
-					<button type="button" class="navigation__button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
-						<svg width="40" height="40" aria-label="Мобильное меню">
+					<button type="button" class="navigation__button is-open" aria-expanded="false" aria-controls="menu-container"
+						data-menu-button>
+						<svg width="40" height="40" aria-label="Мобильное меню" class="navigation-button-svg">
 							<use class="navigation__button-close" href="./img/sprite.svg#close_40"></use>
 							<use class="navigation__button-menu" href="./img/sprite.svg#menu_40"></use>
 						</svg>
 					</button>
-					<div class="menu-mobile is-open" data-menu>text menu</div>
-					
+					<div class="menu-mobile is-open" data-menu>
+						<ul class="navigation__list list">
+							<li class="navigation__list-item"><a href="./index.html"
+									class="link navigation__list-link current">Студия</a></li>
+							<li class="navigation__list-item">
+								<a href="./portfolio.html" class="link navigation__list-link">Портфолио</a>
+							</li>
+							<li class="navigation__list-item"><a href="" class="link navigation__list-link">Контакты</a></li>
+						</ul>
+						<address class="address">
+							<ul class="address__list list">
+								<li class="address__list-item">
+									<a href="mailto:info@devstudio.com" class="link address__list-info">
+										<svg width="16" height="12" class="address__list-svg">
+											<use href="./img/sprite.svg#envelope"></use>
+										</svg> info@devstudio.com</a>
+								</li>
+								<li class="address__list-item">
+									<a href="tel:+380961111111" class="link address__list-info">
+										<svg width="10" height="16" class="address__list-svg">
+											<use href="./img/sprite.svg#smartphone"></use>
+										</svg>+38 096 111 11 11</a>
+								</li>
+							</ul>
+						</address>
+					</div>
+
 				</div>
 			</div>
 		</header>
 		<main>
-			<!----------------------------Menu mobile---------------------------->
-			<!--<div class="container">
-				<button type="button" data-modal-open>open</button>
-			</div>-->
-			<!----------------------------Offers---------------------------->
 			<section class="hero">
 				<div class="container">
 					<h2 class="hero__title">Эффективные решения для вашего бизнеса</h2>
@@ -435,16 +431,6 @@
 				</form>
 			</div>
 		</div>
-		<!--------------------Modal mobile------------------------>
-		<!--<div class="backdrop is-hidden" data-modal>
-			<div class="modal-mobile">
-				<button type="button" data-modal-close>close</button>
-				<p>text</p>
-			</div>
-
-			
-			
-		</div>	-->
 		<script src="./js/modal.js"></script>
 		<script src="./js/menu.js"></script>
 	</body>

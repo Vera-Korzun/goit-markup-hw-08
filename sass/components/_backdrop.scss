@@ -5,6 +5,12 @@
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.2);
+	padding: 93px 15px;
+	overflow-y: scroll;
+
+	@media (min-width: 768px) {
+		padding: 208px 159px;
+	}
 
 	&.is-hidden {
 		opacity: 1;
