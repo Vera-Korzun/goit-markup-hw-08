@@ -1314,7 +1314,8 @@ img {
 
 .modal__checkbox {
   margin-top: 20px;
-  text-align: center;
+  align-items: center;
+  display: flex;
 }
 
 .modal__checkbox-lable {
@@ -1323,6 +1324,7 @@ img {
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.01em;
+  margin-left: 5px;
   color: #757575;
 }
 
@@ -1331,8 +1333,6 @@ img {
   width: 16px;
   height: 16px;
   border: 2px solid #212121;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1356,7 +1356,7 @@ img {
 .modal__checkbox-text {
   color: #757575;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.17;
 }
 
