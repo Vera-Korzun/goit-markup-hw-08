@@ -102,18 +102,12 @@
 	}
 
 	&__overlay {
-		@media (max-width: 1199px) {
-			display: none;
-		}
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
 
-		@media (min-width: 1200px) {
-			position: relative;
-			display: flex;
-			justify-content: center;
-			align-items: flex-end;
-
-			overflow: hidden;
-		}
+		overflow: hidden;
 	}
 
 	&__information {

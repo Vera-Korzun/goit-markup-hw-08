@@ -1529,20 +1529,12 @@ img {
   transform: translateY(-100%);
 }
 
-@media (max-width: 1199px) {
-  .projects__overlay {
-    display: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  .projects__overlay {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-  }
+.projects__overlay {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
 }
 
 .projects__information {
