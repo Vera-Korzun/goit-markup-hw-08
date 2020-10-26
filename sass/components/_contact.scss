@@ -1,10 +1,25 @@
 .contact {
-	display: flex;
-	flex-direction: row;
-	/*justify-content: space-between;*/
+	@media (min-width: 768px) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: baseline;
+	}
+
+	@media (min-width: 1200px) {
+		display: flex;
+		flex-direction: row;
+	}
 
 	&__logo {
-		margin-right: 70px;
+		@media (min-width: 768px) {
+			margin-right: 165px;
+			margin-bottom: 60px;
+		}
+		@media (min-width: 1200px) {
+			margin-right: 70px;
+			margin-bottom: 0;
+		}
 
 		&-link {
 			color: $title-text-color;
@@ -39,7 +54,11 @@
 			flex-direction: column;
 
 			&-item :not(:last-child) {
-				margin-bottom: 9px;
+				margin-bottom: 8px;
+
+				@media (min-width: 1200px) {
+					margin-bottom: 9px;
+				}
 			}
 
 			&-link {
@@ -62,7 +81,15 @@
 	}
 
 	&__social {
-		margin-right: 93px;
+		margin-top: 60px;
+		@media (min-width: 768px) {
+			margin-top: 0;
+		}
+
+		@media (min-width: 1200px) {
+			/*margin-top: 0px;*/
+			margin-right: 93px;
+		}
 
 		&-title {
 			color: $primary-white-color;
@@ -78,9 +105,14 @@
 		&-list {
 			display: flex;
 			flex-direction: row;
-			margin-bottom: 20px;
+			justify-content: center;
+			margin-bottom: 60px;
 
-			&-item {
+			@media (min-width: 1200px) {
+				margin-bottom: 20px;
+			}
+
+			&-item:not(:last-child) {
 				margin-right: 10px;
 			}
 

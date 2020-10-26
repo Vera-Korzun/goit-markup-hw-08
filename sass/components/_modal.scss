@@ -4,13 +4,21 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	width: 528px;
-	height: 581px;
-
 	background-color: $primary-bg-color;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
-	padding: 0 40px;
+	padding: 40px;
+
+	@media (min-width: 480px) {
+		width: 450px;
+		height: 609px;
+	}
+	@media (min-width: 1200px) {
+		width: 528px;
+		height: 581px;
+
+		padding: 0 40px;
+	}
 
 	&__close-button {
 		position: absolute;
@@ -43,21 +51,28 @@
 		flex-direction: column;
 
 		&-title {
-			font-weight: bold;
-			font-size: 20px;
-			line-height: 1.15;
 			color: $title-text-color;
-			margin-top: 40px;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 1.5;
+			text-align: center;
+
+			margin-top: 0;
 			margin-bottom: 12px;
+
+			@media (min-width: 1200px) {
+				line-height: 1.15;
+				margin-top: 40px;
+			}
 		}
 
 		&-lable {
+			color: $primary-text-color;
+
 			font-weight: 400;
 			font-size: 12px;
 			line-height: 1.67;
 			letter-spacing: 0.01em;
-
-			color: $primary-text-color;
 		}
 
 		&-submit {
@@ -162,14 +177,6 @@
 		letter-spacing: 0.01em;
 		color: rgba(117, 117, 117, 0.5);*/
 
-		&::placeholder {
-			font-weight: 400;
-			font-size: 14px;
-			line-height: 1.14;
-			letter-spacing: 0.01em;
-			color: rgba(117, 117, 117, 0.5);
-		}
-
 		&:focus {
 			outline: none;
 			border-color: $accent-color;
@@ -178,6 +185,14 @@
 		&:hover {
 			border-color: $accent-color;
 		}
+	}
+
+	&__message-form::placeholder {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.01em;
+		color: rgba(117, 117, 117, 0.5);
 	}
 
 	&__message-lable {
@@ -234,7 +249,12 @@
 			color: $primary-text-color;
 			font-weight: 400;
 			font-size: 14px;
-			line-height: 1.71;
+			line-height: 1.17;
+
+			@media (min-width: 1200px) {
+				font-size: 14px;
+				line-height: 1.71;
+			}
 		}
 
 		&-link {

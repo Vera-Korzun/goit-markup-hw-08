@@ -11,8 +11,8 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
 		/>
-		<!--<link rel="stylesheet" href="./css/main.min.css">-->
-		<link rel="stylesheet" href="./css/first.css">
+		<link rel="stylesheet" href="./css/main.min.css">
+		<!--<link rel="stylesheet" href="./css/first.css">
 		<link rel="stylesheet" href="./css/container.css">
 		<link rel="stylesheet" href="./css/hero.css">
 		<link rel="stylesheet" href="./css/qualities.css">
@@ -26,6 +26,7 @@
 		<link rel="stylesheet" href="./css/projects.css">
 		<link rel="stylesheet" href="./css/navigation.css">
 		<link rel="stylesheet" href="./css/address.css">
+		<link rel="stylesheet" href="./css/backdrop.css">-->
 		
 	</head>
 	<body>
@@ -38,6 +39,7 @@
 						<span class="navigation__logo-part" lang="en">Web</span>
 						<span>Studio</span>
 					</a>
+
 					<ul class="navigation__list list">
 						<li class="navigation__list-item"><a href="./index.html"
 								class="link navigation__list-link current">Студия</a></li>
@@ -62,10 +64,23 @@
 							</li>
 						</ul>
 					</address>
+
+					<button type="button" class="navigation__button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+						<svg width="40" height="40" aria-label="Мобильное меню">
+							<use class="navigation__button-close" href="./img/sprite.svg#close_40"></use>
+							<use class="navigation__button-menu" href="./img/sprite.svg#menu_40"></use>
+						</svg>
+					</button>
+					<div class="menu-mobile is-open" data-menu>text menu</div>
+					
 				</div>
 			</div>
 		</header>
 		<main>
+			<!----------------------------Menu mobile---------------------------->
+			<!--<div class="container">
+				<button type="button" data-modal-open>open</button>
+			</div>-->
 			<!----------------------------Offers---------------------------->
 			<section class="hero">
 				<div class="container">
@@ -363,7 +378,6 @@
 					<div class="subscription">
 						<h2 class="subscription-title">Подпишитесь на рассылку</h2>
 						<form action="#" class="subscription__form">
-							<!--<label for="mail" class="">Подпишитесь на рассылку</label>-->
 							<input type="email" name="mail" id="mail" class="subscription__form-input" placeholder="E-mail">
 							<button type="submit" class="subscription__form-button">Подписаться
 								<svg width="24" height="24" class="subscription__form-svg">
@@ -421,6 +435,17 @@
 				</form>
 			</div>
 		</div>
+		<!--------------------Modal mobile------------------------>
+		<!--<div class="backdrop is-hidden" data-modal>
+			<div class="modal-mobile">
+				<button type="button" data-modal-close>close</button>
+				<p>text</p>
+			</div>
+
+			
+			
+		</div>	-->
 		<script src="./js/modal.js"></script>
+		<script src="./js/menu.js"></script>
 	</body>
 </html>
