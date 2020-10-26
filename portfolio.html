@@ -24,14 +24,14 @@
 						<span>Studio</span>
 					</a>
 		
-					<button type="button" class="navigation__button is-open" aria-expanded="false"
+					<button type="button" class="navigation__button" aria-expanded="true"
 						aria-controls="menu-container" data-menu-button>
 						<svg width="40" height="40" aria-label="Мобильное меню">
 							<use class="navigation__button-close" href="./img/sprite.svg#close_40"></use>
 							<use class="navigation__button-menu" href="./img/sprite.svg#menu_40"></use>
 						</svg>
 					</button>
-					<div class="menu-mobile is-open" data-menu>
+					<div class="menu-mobile" data-menu>
 						<ul class="navigation__list list">
 							<li class="navigation__list-item"><a href="./index.html"
 									class="link navigation__list-link ">Студия</a></li>
@@ -90,7 +90,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work1.jpg" alt="проект веб-сайта" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob1@1x.webp 1x, ./img/projects/mobile/mob1@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob1@1x.jpg 1x, ./img/projects/mobile/mob1@2x.jpg 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl1@1x.webp 1x, ./img/projects/tablet/tabl1@2x.webp 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl1@1x.jpg 1x, ./img/projects/tablet/tabl1@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk1@1x.webp 1x, ./img/projects/desk/desk1@2x.webp 2x" @media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk1@1x.jpg 1x, ./img/projects/desk/desk1@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work1.jpg1" width="450" height="294" alt="проект веб-сайта" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -107,7 +115,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work2.jpg"  alt="проект дизайна" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob2@1x.webp 1x, ./img/projects/mobile/mob2@2x.webp 2x"	@media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob2@1x.jpg 1x, ./img/projects/mobile/mob2@2x.jpg 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl2@1x.webp 1x, ./img/projects/tablet/tabl2@2x.webp 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl2@1x.jpg 1x, ./img/projects/tablet/tabl2@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk2@1x.webp 1x, ./img/projects/desk/desk2@2x.webp 2x"	@media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk2@1x.jpg 1x, ./img/projects/desk/desk2@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work2.jpg1"  alt="проект дизайна" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -128,7 +144,16 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work3.jpg"  alt="проект приложения" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob3@1x.webp 1x, ./img/projects/mobile/mob3@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob3@1x.jpg 1x, ./img/projects/mobile/mob3@2x.jpg 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl3@1x.webp 1x, ./img/projects/tablet/tabl3@2x.webp 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl3@1x.jpg 1x, ./img/projects/tablet/tabl3@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk3@1x.webp 1x, ./img/projects/desk/desk3@2x.webp 2x"	@media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk3@1x.jpg 1x, ./img/projects/desk/desk3@2x.jpg 2x" @media="min-width: 1200px">
+									<img src="./img/work3.jpg1"  alt="проект приложения" />
+									</picture>
+								
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -149,7 +174,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work4.jpg"  alt="маркетинг проекта" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob4@1x.webp 1x, ./img/projects/mobile/mob4@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob4@1x.jpg 1x, ./img/projects/mobile/mob4@2x.jpg 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl4@1x.webp 1x, ./img/projects/tablet/tabl4@2x.webp 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl4@1x.jpg 1x, ./img/projects/tablet/tabl4@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk4@1x.webp 1x, ./img/projects/desk/desk4@2x.webp 2x" @media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk4@1x.jpg 1x, ./img/projects/desk/desk4@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work4.jpg1"  alt="маркетинг проекта" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -170,7 +203,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work5.jpg"  alt="проект приложения" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob5@1x.webp 1x, ./img/projects/mobile/mob5@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob5@1x.jpg 1x, ./img/projects/mobile/mob5@2x.jpg 2x"	@media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl5@1x.webp 1x, ./img/projects/tablet/tabl5@2x.webp 2x"	@media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl5@1x.jpg 1x, ./img/projects/tablet/tabl5@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk5@1x.webp 1x, ./img/projects/desk/desk5@2x.webp 2x" @media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk5@1x.jpg 1x, ./img/projects/desk/desk5@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work5.jpg1"  alt="проект приложения" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -191,7 +232,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work6.jpg"  alt="проект веб-сайта" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob6@1x.webp 1x, ./img/projects/mobile/mob6@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob6@1x.jpg 1x, ./img/projects/mobile/mob6@2x.jpg 2x"	@media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl6@1x.webp 1x, ./img/projects/tablet/tabl6@2x.webp 2x"	@media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl6@1x.jpg 1x, ./img/projects/tablet/tabl6@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk6@1x.webp 1x, ./img/projects/desk/desk6@2x.webp 2x"	@media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk6@1x.jpg 1x, ./img/projects/desk/desk6@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work6.jpg1"  alt="проект веб-сайта" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -209,7 +258,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work7.jpg"  alt="проект дизайна" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob7@1x.webp 1x, ./img/projects/mobile/mob7@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob7@1x.jpg 1x, ./img/projects/mobile/mob7@2x.jpg 2x"	@media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl7@1x.webp 1x, ./img/projects/tablet/tabl7@2x.webp 2x"	@media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl7@1x.jpg 1x, ./img/projects/tablet/tabl7@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk7@1x.webp 1x, ./img/projects/desk/desk7@2x.webp 2x" @media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk7@1x.jpg 1x, ./img/projects/desk/desk7@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work7.jpg1"  alt="проект дизайна" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -230,7 +287,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work8.jpg"  alt="маркетинг проекта" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob8@1x.webp 1x, ./img/projects/mobile/mob8@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob8@1x.jpg 1x, ./img/projects/mobile/mob8@2x.jpg 2x"	@media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl8@1x.webp 1x, ./img/projects/tablet/tabl8@2x.webp 2x"	@media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl8@1x.jpg 1x, ./img/projects/tablet/tabl8@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk8@1x.webp 1x, ./img/projects/desk/desk8@2x.webp 2x"	@media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk8@1x.jpg 1x, ./img/projects/desk/desk8@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work8.jpg1"  alt="маркетинг проекта" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
@@ -251,7 +316,15 @@
 						<li class="projects__list-item">
 							<a class="link projects__list-link" href="">
 								<div class="projects__overlay">
-									<img src="./img/work9.jpg"  alt="проект приложения" />
+									<picture class="picture">
+										<source srcset="./img/projects/mobile/mob9@1x.webp 1x, ./img/projects/mobile/mob9@2x.webp 2x" @media="min-width: 320px">
+										<source srcset="./img/projects/mobile/mob9@1x.jpg 1x, ./img/projects/mobile/mob9@2x.jpg 2x"	@media="min-width: 320px">
+										<source srcset="./img/projects/tablet/tabl9@1x.webp 1x, ./img/projects/tablet/tabl9@2x.webp 2x"	@media="min-width: 768px">
+										<source srcset="./img/projects/tablet/tabl9@1x.jpg 1x, ./img/projects/tablet/tabl9@2x.jpg 2x" @media="min-width: 768px">
+										<source srcset="./img/projects/desk/desk9@1x.webp 1x, ./img/projects/desk/desk9@2x.webp 2x"	@media="min-width: 1200px">
+										<source srcset="./img/projects/desk/desk9@1x.jpg 1x, ./img/projects/desk/desk9@2x.jpg 2x" @media="min-width: 1200px">
+										<img src="./img/work9.jpg1"  alt="проект приложения" />
+									</picture>
 									<div class="projects__information">
 										<p class="projects__information-description">Технокряк это современная площадка
 											распространения
